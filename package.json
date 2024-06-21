@@ -1,0 +1,15 @@
+{
+  "name": "cypresscourse",
+  "version": "1.0.0",
+  "description": "Cypress course 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "author": "Juan Manuel González",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.12.0"
+  }
+}

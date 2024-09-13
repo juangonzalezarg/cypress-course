@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Hamburguesa Clásica",
+    "price": "6500",
+    "description": "Jugosa hamburguesa de res con lechuga, tomate, cebolla y queso cheddar"
+  },
+  {
+    "name": "Pizza Margherita",
+    "price": "13000",
+    "description": "Pizza con salsa de tomate, mozzarella fresca y hojas de albahaca"
+  },
+  {
+    "name": "Tacos de Pollo",
+    "price": "18000",
+    "description": "Tacos suaves rellenos de pollo sazonado, guacamole y pico de gallo"
+  },
+  {
+    "name": "Pepsi 500ml",
+    "price": "1160",
+    "description": "Gaseosa Pepsi clásica botella de 500ml"
+  },
+  {
+    "name": "7up 500ml",
+    "price": "1160",
+    "description": "Gaseosa 7up sabor lima limón botella de 500ml"
+  },
+  {
+    "name": "Mirinda 500ml",
+    "price": "1160",
+    "description": "Gaseosa Mirinda sabor naranja botella de 500ml"
+  },
+  {
+    "name": "Coca-cola 500ml",
+    "price": "1411",
+    "description": "Gaseosa Coca-cola Sabor Original de 500ml"
+  },
+  {
+    "name": "Sprite 500ml",
+    "price": "1411",
+    "description": "Gaseosa Sprite sabor limón botella de 500ml"
+  },
+  {
+    "name": "Fanta 500ml",
+    "price": "1411",
+    "description": "Gaseosa Fanta sabor naranja botella de 500ml"
+  },
+  {
+    "name": "Manaos cola 600ml",
+    "price": "1099",
+    "description": "Gaseosa Manaos cola de 600ml"
+  },
+  {
+    "name": "Manaos limón 600ml",
+    "price": "1099",
+    "description": "Gaseosa Manaos sabor lima limón botella de 600ml"
+  },
+  {
+    "name": "Manaos naranja 600ml",
+    "price": "1099",
+    "description": "Gaseosa Manaos sabor naranja botella de 600ml"
+  }
+]

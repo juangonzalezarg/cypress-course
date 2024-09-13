@@ -1,0 +1,19 @@
+{
+  "name": "Juano's Bar",
+  "phoneNumber": "+543751998877",
+  "whatsAppNumber": "+543751665544",
+  "email": "juanosbar@test.com",
+  "hubspot": "https://www.hubspot.com/juanosbar",
+  "code": "juanosbar",
+  "country": "Argentina",
+  "address": "Mendoza 385",
+  "description": "Juano's Bar: comida local e internacional en un ambiente acogedor y vibrante.",
+  "message": "Juano's Bar: comida y ambiente vibrante.",
+  "planType": "Pro",
+  "accountNumber": "5678901234567890",
+  "alias": "juanosbar.mp",
+  "holderName": "The Juano Bar",
+  "bankName": "Banco Parra",
+  "startTime": "10:00",
+  "endTime": "19:00"
+}

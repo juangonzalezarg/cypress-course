@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Ensalada César",
+    "price": "5336",
+    "description": "Ensalada fresca con lechuga romana, crutones y aderezo César"
+  },
+  {
+    "name": "Hamburguesa Clásica",
+    "price": "6500",
+    "description": "Jugosa hamburguesa de res con lechuga, tomate, cebolla y queso cheddar"
+  },
+  {
+    "name": "Pizza Margherita",
+    "price": "13000",
+    "description": "Pizza con salsa de tomate, mozzarella fresca y hojas de albahaca"
+  },
+  {
+    "name": "Sopa de Tomate",
+    "price": "5400",
+    "description": "Sopa cremosa de tomate con un toque de albahaca y crema"
+  },
+  {
+    "name": "Tacos de Pollo",
+    "price": "18000",
+    "description": "Tacos suaves rellenos de pollo sazonado, guacamole y pico de gallo"
+  },
+  {
+    "name": "Pasta Alfredo",
+    "price": "18700",
+    "description": "Pasta fettuccine en una cremosa salsa Alfredo con parmesano"
+  },
+  {
+    "name": "Brownie con Helado",
+    "price": "7200",
+    "description": "Brownie de chocolate tibio servido con una bola de helado de vainilla"
+  },
+  {
+    "name": "Pepsi 500ml",
+    "price": "1020",
+    "description": "Gaseosa Pepsi clásica botella de 500ml"
+  },
+  {
+    "name": "7up 500ml",
+    "price": "1020",
+    "description": "Gaseosa 7up sabor lima limón botella de 500ml"
+  },
+  {
+    "name": "Mirinda 500ml",
+    "price": "1020",
+    "description": "Gaseosa Mirinda sabor naranja botella de 500ml"
+  }
+]

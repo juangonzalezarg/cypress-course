@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:open": "cypress open"
+    "cy:open:local": "cypress open --env ENV=local",
+    "cy:open:test1": "cypress open --env ENV=test1",
+    "cy:open:test2": "cypress open --env ENV=test2"
   },
   "author": "Juan Manuel González",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.12.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }

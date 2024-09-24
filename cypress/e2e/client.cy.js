@@ -1,5 +1,6 @@
 describe("Add Multiple Products", () => {
   const BASE_URL = Cypress.env("BASE_URL");
+  const BAR_TIMER_CLASS_SELECTOR = Cypress.env("BAR_TIMER_CLASS_SELECTOR");
 
   beforeEach(() => {
     cy.visit(`${BASE_URL}/user/login`, { failOnStatusCode: false }).then(() => {
@@ -61,9 +62,7 @@ describe("Add Multiple Products", () => {
         // Schedule Tab
         cy.get('[data-node-key="5"]').click();
 
-        cy.get(
-          "div.ant-col.ant-col-5.antd-pro-components-bar-bartimer-row-customCol.css-dev-only-do-not-override-1kmeaw1"
-        ).each(($el) => {
+        cy.get(BAR_TIMER_CLASS_SELECTOR).each(($el) => {
           // We check if there is an h1 within the div that contains the text of any day of the week
           const dayText = $el.find("h1").text();
 

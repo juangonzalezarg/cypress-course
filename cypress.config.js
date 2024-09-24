@@ -13,6 +13,8 @@ module.exports = defineConfig({
 
       // Sobrescribir las variables de entorno en Cypress
       config.env.BASE_URL = process.env.REACT_APP_BASE_URL;
+      config.env.BAR_TIMER_CLASS_SELECTOR =
+        process.env.REACT_APP_BAR_TIMER_CLASS_SELECTOR;
 
       return config;
     },

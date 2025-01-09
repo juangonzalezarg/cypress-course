@@ -1,0 +1,23 @@
+[
+  {
+    "menuType": "Gastronómico",
+    "menuActionType": "Permite comprar",
+    "deliveryType": "Salón",
+    "name": "Almuerzo",
+    "icon": "uil:utensils-alt"
+  },
+  {
+    "menuType": "Gastronómico",
+    "menuActionType": "Permite comprar",
+    "deliveryType": "Delivery",
+    "name": "Express",
+    "icon": "ic:sharp-delivery-dining"
+  },
+  {
+    "menuType": "Gastronómico",
+    "menuActionType": "Permite comprar",
+    "deliveryType": "Take away",
+    "name": "Para llevar",
+    "icon": "uil:store-alt"
+  }
+]

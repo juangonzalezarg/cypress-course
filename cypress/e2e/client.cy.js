@@ -1,4 +1,4 @@
-describe("Add Multiple Products", () => {
+describe("Add Client", () => {
   const BASE_URL = Cypress.env("BASE_URL");
   const BAR_TIMER_CLASS_SELECTOR = Cypress.env("BAR_TIMER_CLASS_SELECTOR");
 
@@ -20,7 +20,9 @@ describe("Add Multiple Products", () => {
       cy.url().should("include", "/administration/clients");
 
       cy.fixture("client.json").then((client) => {
-        cy.contains("button", "Crear").should("be.visible").click();
+        cy.contains("button", /^Crear$/)
+          .should("be.visible")
+          .click();
 
         // General Tab
         cy.get('input[id="name"]').type(client.name);

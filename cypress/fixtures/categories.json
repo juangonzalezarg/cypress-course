@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Bebidas",
+    "description": "Refresca tu paladar con nuestra selección de bebidas, desde cócteles clásicos hasta jugos naturales y refrescos."
+  },
+  {
+    "name": "Entradas",
+    "description": "Comienza tu experiencia culinaria con nuestras deliciosas entradas, perfectas para abrir el apetito."
+  },
+  {
+    "name": "Platos principales",
+    "description": "Disfruta de una variedad de platos principales elaborados con ingredientes frescos y sabores auténticos."
+  },
+  {
+    "name": "Postres",
+    "description": "Termina en dulce con nuestros irresistibles postres, el final perfecto para cualquier comida."
+  }
+]

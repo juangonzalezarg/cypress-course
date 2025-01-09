@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Punto de Venta 1",
+    "deliveryTypes": ["Salón"]
+  },
+  {
+    "name": "Punto de Venta 2",
+    "deliveryTypes": ["Salón"]
+  },
+  {
+    "name": "Punto de Venta 3",
+    "deliveryTypes": ["Salón", "Delivery"]
+  },
+  {
+    "name": "Punto de Venta 4",
+    "deliveryTypes": ["Salón", "Take away"]
+  }
+]

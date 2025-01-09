@@ -3,8 +3,8 @@ describe("Add Multiple Products", () => {
 
   beforeEach(() => {
     cy.visit(`${BASE_URL}/user/login`, { failOnStatusCode: false }).then(() => {
-      cy.get('input[id="userName"]').type("BarAdmin"); // BarAdmin
-      cy.get('input[id="password"]').type("BarAdmin"); // BarAdmin
+      cy.get('input[id="userName"]').type("BarAdmin");
+      cy.get('input[id="password"]').type("BarAdmin");
 
       cy.get('button[type="submit"]').click();
 
@@ -18,9 +18,19 @@ describe("Add Multiple Products", () => {
     }).then(() => {
       cy.url().should("include", "/catalogue/products");
 
+      // TODO: Verify if terms and conditions are requested only once
+      cy.get("body").then(($body) => {
+        if ($body.find('button:contains("Aceptar")').length > 0) {
+          cy.contains("button", "Aceptar").scrollIntoView().click();
+          // TODO: visit again the products page
+        }
+      });
+
       cy.fixture("products.json").then((products) => {
         products.forEach((product) => {
-          cy.contains("button", "Crear").should("be.visible").click();
+          cy.contains("button", /^Crear$/)
+            .should("be.visible")
+            .click();
 
           cy.get('input[id="name"]').type(product.name);
           cy.get('input[id="price"]').type(product.price);
